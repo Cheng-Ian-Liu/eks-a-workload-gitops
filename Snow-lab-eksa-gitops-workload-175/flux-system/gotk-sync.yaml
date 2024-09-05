@@ -10,7 +10,7 @@ spec:
   ref:
     branch: main
   secretRef:
-    name: flux-system-test
+    name: flux-system
   url: https://github.com/Cheng-Ian-Liu/eks-a-workload-gitops.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
